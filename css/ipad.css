@@ -1,0 +1,120 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    :root{
+        --primary_color: #775FBD;
+        --secondary_color: linear-gradient(79.11deg, #775FBD 0%, #AA5FBD 100%);
+        --third_color: #4e4e4e;
+        --text_color: #7c7c7c;
+    
+        --display_font: 48px;
+        --h1_font: 32px;
+        --h2_font: 28px;
+        --menu_font: 24px;
+        --link_font: 21px;
+        --text_font_md: 18px;
+        --text_font_sm: 14px;
+    
+        --font_xl: 700;
+        --font_md: 600;
+        --font_sm: 500;
+    }
+
+    .container{
+        max-width: 720px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .nav_menu{
+        display: none;
+    }
+
+    .nav_auth{
+        display: none;
+    }
+
+    .btn_responsive{
+        display: block;
+    }
+
+    .menu_btn{
+        padding: 10px 15px;
+        background: linear-gradient(79.11deg, #775FBD 0%, #AA5FBD 100%);
+        border-radius: 10px;
+        border-style: none;
+        color: #fff;
+        font-size: 24px;
+    }
+
+
+/* Display */
+
+    .display_col{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .display_col_text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+
+    /* End Display */
+
+    /* Banner */
+
+    .banner_col{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+
+    /* End Banner */
+
+
+    /* Kategoti */
+
+    .kategori_content{
+        padding: 30px 20px;
+    }
+
+    /* End Kategori */
+
+    /* Join */
+   .join_app_col{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 60px;
+    }
+    /* End Join */
+
+
+
+    .footer_header_text{
+        text-align: center;
+    }
+
+    .footer_text_par{
+        text-align: center;
+    }
+
+    .footer_col{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 60px;
+    }
+
+    .footer_list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+}
