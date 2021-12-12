@@ -1,4 +1,4 @@
-@media (min-width: 375px) and (max-width: 720px) {
+@media (min-width: 320px) and (max-width: 540px) {
 
     :root{
         --primary_color: #775FBD;
